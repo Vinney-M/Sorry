@@ -1,0 +1,57 @@
+  body {
+      background: linear-gradient(to bottom right, #fce4ec, #f8bbd0);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      padding: 50px;
+      color: #880e4f;
+    }
+
+    .apology-box {
+      background: white;
+      border-radius: 20px;
+      padding: 30px;
+      max-width: 500px;
+      margin: 0 auto;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      animation: floaty 3s ease-in-out infinite;
+    }
+
+    @keyframes floaty {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    h1 {
+      font-size: 3em;
+    }
+
+    p {
+      font-size: 1.3em;
+      margin: 20px 0;
+    }
+
+    .emoji {
+      font-size: 2.5em;
+      animation: blink 2s infinite;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
+    .button {
+      padding: 10px 25px;
+      font-size: 1em;
+      border: none;
+      border-radius: 12px;
+      background-color: #f06292;
+      color: white;
+      cursor: pointer;
+      margin-top: 20px;
+      transition: background 0.3s;
+    }
+
+    .button:hover {
+      background-color: #ec407a;
+    }
